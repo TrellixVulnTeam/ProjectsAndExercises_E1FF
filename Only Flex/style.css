@@ -1,0 +1,225 @@
+body{
+   margin: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'VT323', monospace;
+}
+
+.part{
+    height: 75vh;
+}
+
+.part-one{
+    background-color: #E78519;
+}
+.part-twe{
+    background-color: #e4e4e4;
+}
+.part-thre{
+    background-color: #EBB048;
+}
+.part-four{
+    background-color: #e4e4e4;
+}
+
+/* Part 1 */
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+.header .logo{
+    margin-right: auto;
+    font-size: 30px;
+    margin-top: 2vh;
+    margin-bottom: 0px;
+}
+
+.header .link{
+    font-size: 18px;
+    margin-top: 2vh;
+    margin-bottom: 0px;
+    width: 15vw;
+}
+
+.intro{
+    margin-top: 5vh;
+    display: flex;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8vw;
+    flex-grow: 1;
+}
+
+.intro-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10vh;
+    margin-right: 10vw;
+    margin-bottom: 0px;
+}
+
+.intro-text p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 5vw;
+}
+
+.intro-text button{
+    font-family: 'VT323', monospace;
+    font-size: 22px;
+    height: 50px;
+    width: 100px;
+
+}
+
+.intro-pic{
+    margin-right: 8vw;
+    flex-grow: 1;
+}
+
+.intro-pic img{
+    width: 38vw;
+    height: 30vh;
+    margin-top: 10vh;
+    border-style: solid;
+    border-color: black;
+}
+
+/* Part 2 */
+
+.part-twe{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.title p{
+    font-size: 35px;
+    margin-bottom: 15vh;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.il-box{
+    border-style: solid;
+    border-color: black;
+    width: 15vw;
+    height: 20vh;
+}
+
+.il-text{
+    font-size: 18px;
+    padding-bottom: 5vh;
+    padding-left: 2vw;
+    max-width: 120px;
+
+}
+
+/* Part 3 */
+
+.part-thre{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    margin-top: 18vh;
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 60vw;
+}
+
+/* Part 4 */
+
+.part-four{
+    display: flex;
+    justify-content: center;
+}
+
+.big-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.box-sign{
+    display: flex;
+    background-color: #E78519;
+    height: 30vh;
+    width: 75vw;
+    margin-top: 15vh;
+    margin-left: 12vw;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box-text-first{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 8vh;
+    margin-left: 4vw;
+}
+
+.box-text-second{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-left: 4vw;
+}
+
+.box-btn button{
+    height: 50px;
+    width: 100px;
+    margin-left: 4vw;
+    margin-top: 6vw;
+    border-style: solid;
+    border-color: black;
+    font-family:  'VT323', monospace;
+}
+
+.box-end{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 23vh;
+    width: 99vw;
+    margin-bottom: 0px;
+}
+
+.box-end p{
+    color: #E78519;
+
+}
